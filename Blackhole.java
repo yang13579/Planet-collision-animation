@@ -1,0 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package realtimesimulation;
+
+/**
+ *
+ * @author cstuser
+ */
+public class Blackhole extends GameObject{
+    public Blackhole(Vector2D position){
+        super(position, new Vector2D(0,0), new Vector2D(0,0), 150);
+        circle.setFill(AssetManager.getBlackHoleImage());
+    }
+    
+}
